@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+header {
+  background-color: #7e7777;
+  color: rgb(149, 214, 223);
+  padding: 1rem 0;
+}
+
+.navbar {
+  font-style: oblique;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: rgb(241, 126, 126);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00e1ff;
+}
+
+/* Hero Section */
+.hero {
+  background: url('fis.jpg') center/cover no-repeat;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 130px 20px;
+}
+
+.hero-content {
+  background-color: rgba(170, 168, 168, 0.5);
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+} 
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #7aeef7;
+  color: rgb(0, 0, 0);
+  border-radius: 5px solid transparent;
+  text-decoration: none;
+  
+}
+
+.btn:hover {
+  background: transparent;
+  border-color: white;
+  color: rgb(5, 240, 189);
+}
+
+/* About Section */
+.about {
+  padding: 30px 20px;
+  text-align: center;
+  background-color:#7e7777;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+/* Services Section */
+.services {
+    background-color: #7e7777;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.service-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-box {
+  background: #74ffff;
+  color: rgb(58, 56, 56);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+  background: #363636;
+  color: rgb(243, 132, 132);
+  text-align: center;
+  padding: 10px;
+}
